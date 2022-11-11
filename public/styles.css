@@ -49,6 +49,11 @@ h6 {
 html,
 body {
   height: 100%;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -123,6 +128,7 @@ body {
 .rating-box .image-box:hover {
   background-color: hsl(25, 97%, 53%);
   color: white;
+  cursor: pointer;
 }
 
 button {
@@ -139,6 +145,7 @@ button {
 button:hover {
   background-color: white;
   color: hsl(25, 97%, 53%);
+  cursor: pointer !important;
 }
 
 a {
